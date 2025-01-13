@@ -1,6 +1,6 @@
 Gestion des inscriptions – Projet Web
 
-  
+    
 
 Bienvenue dans le projet Gestion des inscriptions pour l'Ecole 221. Cette application web simplifie la gestion des inscriptions, des classes, des professeurs et des étudiants avec des statistiques claires et une gestion efficace des demandes d'inscription.
 
@@ -12,35 +12,35 @@ Principales fonctionnalités
 
 Responsable Pédagogique (RP) :
 
-Création et gestion des classes (libellé, filière, niveau).
+🖊️ Création et gestion des classes (libellé, filière, niveau).
 
-Ajout et gestion des professeurs (nom complet, grade) et de leurs modules.
+🔧 Ajout et gestion des professeurs (nom complet, grade) et de leurs modules.
 
-Assignation des modules aux professeurs.
+🔐 Assignation des modules aux professeurs.
 
-Liste des classes et modules d’un professeur.
+📊 Liste des classes et modules d’un professeur.
 
 Attaché de Classe :
 
-Gestion des inscriptions/réinscriptions des étudiants (année scolaire).
+✍️ Gestion des inscriptions/réinscriptions des étudiants (année scolaire).
 
-Liste des étudiants inscrits par classe et par année scolaire.
+📝 Liste des étudiants inscrits par classe et par année scolaire.
 
-Gestion et suivi des demandes d'annulation ou de suspension des inscriptions des étudiants.
+🛂 Gestion et suivi des demandes d'annulation ou de suspension des inscriptions des étudiants.
 
 Étudiant :
 
-Formulation des demandes d'annulation/suspension d'inscription (motif, date).
+❓ Formulation des demandes d'annulation/suspension d'inscription (motif, date).
 
-Consultation et filtrage de ses demandes par état.
+🔍 Consultation et filtrage de ses demandes par état.
 
 Statistiques :
 
-Effectif de l'école par année.
+🔢 Effectif de l'école par année.
 
-Répartition par genre (école/classe).
+👩‍👧 Répartition par genre (école/classe).
 
-Effectif des étudiants ayant annulé ou suspendu leur inscription (par année).
+🔢 Effectif des étudiants ayant annulé ou suspendu leur inscription (par année).
 
 📊 Technologies utilisées
 
@@ -118,33 +118,33 @@ $newData : Nouvelles données à insérer.
 
 🖌️ Diagrammes à produire
 
-Diagramme de contexte : Vue d’ensemble des interactions entre les acteurs.
+Diagramme de contexte : 🌐 Vue d’ensemble des interactions entre les acteurs.
 
-Diagramme de cas d’utilisation : Précise les fonctionnalités par acteur.
+Diagramme de cas d’utilisation : 🔍 Précise les fonctionnalités par acteur.
 
-Diagramme de package : Organisation du système en modules cohérents.
+Diagramme de package : 📦 Organisation du système en modules cohérents.
 
-Diagramme de classe : Modélisation des entités (classes, relations).
+Diagramme de classe : 🔬 Modélisation des entités (classes, relations).
 
 ✨ Points forts
 
-Utilisation de JSON comme base de données pour simplifier le développement.
+🔧 Utilisation de JSON comme base de données pour simplifier le développement.
 
-Manipulation optimisée des données via des fonctions PHP claires et réutilisables.
+🔄 Manipulation optimisée des données via des fonctions PHP claires et réutilisables.
 
-Gestion multi-acteurs avec un système d’authentification.
+🔐 Gestion multi-acteurs avec un système d’authentification.
 
-Statistiques détaillées pour un suivi précis.
+📊 Statistiques détaillées pour un suivi précis.
 
 🚀 Lancement du projet
 
-Clonez le projet :
+🔄 Clonez le projet :
 
 git clone https://github.com/votre-repo/gestion-inscriptions.git
 
-Assurez-vous que PHP 8.0+ est installé sur votre machine.
+🎮 Assurez-vous que PHP 8.0+ est installé sur votre machine.
 
-Placez le fichier JSON dans le répertoire db/ et modifiez la constante DB dans le fichier Convert.php pour pointer vers ce fichier.
+🔧 Placez le fichier JSON dans le répertoire db/ et modifiez la constante DB dans le fichier Convert.php pour pointer vers ce fichier.
 
 Lancez un serveur local PHP :
 
