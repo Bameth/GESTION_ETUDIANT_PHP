@@ -152,21 +152,3 @@ php -S localhost:8000
 
 Accédez à l’application via http://localhost:8000.
 
-❤️ Contribuer
-
-Les contributions sont les bienvenues ! Veuillez suivre les étapes suivantes pour contribuer :
-
-Forkez ce dépôt.
-
-Créez une nouvelle branche.
-
-Soumettez une pull request.
-
-🌐 Liens utiles
-
-Documentation PHP
-
-JSON en PHP
-
-© 2025
-
